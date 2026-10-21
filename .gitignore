@@ -1,0 +1,25 @@
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Plugins predeterminados
+/plugins/akismet/
+/plugins/hello.php
+/plugins/index.php
+
+# Dependencias
+node_modules/
+vendor/
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Editor
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
